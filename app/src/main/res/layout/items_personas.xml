@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:text="ID"
+        android:textAppearance="?attr/textAppearanceListItem"
+        />
+
+    <TextView
+        android:layout_below="@id/tv_id"
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:text="Nombre"
+        android:textAppearance="?attr/textAppearanceListItem"
+        />
+
+    <TextView
+        android:id="@+id/tv_apellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_name"
+        android:layout_below="@+id/tv_name"
+        android:text="Apellido"
+        android:textAppearance="?attr/textAppearanceListItem"
+        />
+
+    <TextView
+        android:id="@+id/tv_edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_name"
+        android:layout_below="@+id/tv_apellido"
+        android:text="Edad"
+        android:textAppearance="?attr/textAppearanceListItem"
+        />
+
+
+
+</RelativeLayout>
